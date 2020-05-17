@@ -3,11 +3,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
 </head>
 <body>
-<h1>index</h1>
-<h1>입니다</h1>
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+	    <div class="container">
+	        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+	        	<img src="imges/TankMasterLogo.png" />
+        	</a>
+        	<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        		Menu
+       			<i class="fas fa-bars ml-1"></i>
+   			</button>
+	        <div class="collapse navbar-collapse" id="navbarResponsive">
+	            <ul class="navbar-nav text-uppercase ml-auto">
+	                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
+	                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+	                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+	                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li>
+	                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+	            </ul>
+	        </div>
+	    </div>
+	</nav>
 </body>
 </html>
