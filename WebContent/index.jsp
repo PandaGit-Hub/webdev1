@@ -31,7 +31,12 @@
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav text-uppercase ml-auto">
 					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger" href="login.do" name="login">information</a>
+						<c:if test="${empty loginUser}">	
+							<a class="nav-link js-scroll-trigger" href="login.do" name="login">information</a>
+						</c:if>
+						<c:if test="${empty loginUser}">	
+							<a class="nav-link js-scroll-trigger" href="login.do" name="login">information</a>
+						</c:if>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link js-scroll-trigger" href="#services">Services</a>
